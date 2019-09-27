@@ -23,14 +23,14 @@ public class MainFrame extends JFrame {
         final JTextField filePath = new JTextField(35);
         JPanel folderPanel = new JPanel();
         folderPanel.setLayout(new GridBagLayout());
-        folderPanel.setBorder(BorderFactory.createTitledBorder("Укажите путь к папке/файлу:"));
+        folderPanel.setBorder(BorderFactory.createTitledBorder("Specify the path to the folder/file:"));
         folderPanel.add(filePath, new GridBagConstraints(0, 0, 1, 1, 0.0, 1.0,
                 GridBagConstraints.EAST, GridBagConstraints.HORIZONTAL,
                 new Insets(0,0,0,0), 0, 0));
 
         JPanel secondPanel = new JPanel();
         secondPanel.setLayout(new GridBagLayout());
-        secondPanel.setBorder(BorderFactory.createTitledBorder("Введите расширение файла:"));
+        secondPanel.setBorder(BorderFactory.createTitledBorder("Enter file extension:"));
         final JTextField expansionText = new JTextField(35);
         expansionText.setText(".log");
         secondPanel.add(expansionText, new GridBagConstraints(0, 0, 1, 1, 0.0, 1.0,
@@ -42,7 +42,7 @@ public class MainFrame extends JFrame {
 
         JPanel thirdPanel = new JPanel();
         final JTextArea searchText = new JTextArea(6, 35);
-        thirdPanel.setBorder(BorderFactory.createTitledBorder("Введите искомый текст:"));
+        thirdPanel.setBorder(BorderFactory.createTitledBorder("Enter the search text:"));
         thirdPanel.add(new JScrollPane(searchText), new GridBagConstraints(0, 0, 1, 1, 0.0, 1.0,
                 GridBagConstraints.CENTER, GridBagConstraints.BOTH,
                 new Insets(0,0,0,0), 0, 0));
