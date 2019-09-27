@@ -8,7 +8,7 @@ import java.awt.*;
 public class MainFrame extends JFrame {
 
     public MainFrame() {
-        super("Поиск файлов");
+        super("Search files");
         setPreferredSize(new Dimension(420, 300));
         setMinimumSize(new Dimension(420, 300));
         setMaximumSize(new Dimension(420, 300));
