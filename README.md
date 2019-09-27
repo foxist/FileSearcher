@@ -11,6 +11,7 @@ After you fill in the fields, click on the "Search" button.
 https://github.com/foxist/FileSearcher/blob/master/src/main/resources/2.png
 
 Wait for the program to finish the search.
+
 https://github.com/foxist/FileSearcher/blob/master/src/main/resources/3.png
 
 Now you can see the line you were looking for. It is highlighted in green.
