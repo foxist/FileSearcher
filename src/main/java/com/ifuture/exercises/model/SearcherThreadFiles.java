@@ -69,7 +69,6 @@ public class SearcherThreadFiles extends RecursiveTask<Integer> {
             if (file.toString().endsWith(str))
                 if (isNecessaryFile(file))
                     progressBar.getData().push(file);
-                int a = 0;
     }
 
     private boolean isNecessaryFile(File file) {
